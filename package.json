@@ -1,0 +1,25 @@
+{
+  "name": "honky_bot",
+  "version": "1.0.0",
+  "description": "a rp helper bot",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.2.7",
+    "mongoose": "^5.11.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "console.log('works!')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViliusLux/honky_bot.git"
+  },
+  "author": "Killer goose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViliusLux/honky_bot/issues"
+  },
+  "homepage": "https://github.com/ViliusLux/honky_bot#readme"
+}
