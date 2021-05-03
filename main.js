@@ -154,6 +154,8 @@ client.on('message', message =>{
         message.channel.send(`You didn't specify what acount you want to see`)
     } else if (message.content.startsWith(`${prefix}invite`)) {
         message.channel.send(`Here's the invite: https://discord.com/api/oauth2/authorize?client_id=816959525885968384&permissions=8&scope=bot`)
+    } else if (message.content.startsWith(`${prefix}dm`)) {
+        message.author.send('ok...')
     }
 });
 //this discord bot was created for server called Honk Clan if you copy this bot's code you will be in deep truble!!! 
